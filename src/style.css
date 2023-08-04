@@ -1,0 +1,26 @@
+* {
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    background-color: white;
+}
+html,body {
+    padding: 0;
+    margin: 0;    
+    font-family: sans-serif;
+  }
+
+#app {
+    position: relative;
+}
+header {
+    position: sticky;
+    top: 0;
+    height: 64px;
+    /* background-color: green; */
+    z-index: 1;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid cyan; */
+    min-height: 800px;
+}

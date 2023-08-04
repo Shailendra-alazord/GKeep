@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+.header div {
+    /* border: 2px solid brown; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: orange; */
+    justify-content: center;
+    width: fit-content;
+    padding: 4px;
+    height: 48px;
+}
+.sidebar-icon {
+    margin-left: 16px
+}
+.search-container {
+    flex-grow: 1;
+    outline: none;
+}
+.header-search {
+    /* border: 2px solid black; */
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    margin-left: 32px;
+    background-color: #F1F3F4;
+    border-radius: 8px;
+    border-bottom: 1px solid grey;
+    outline: none;
+    border: none;
+}
+.header-search input {
+    flex-grow: 1;
+    background-color: #F1F3F4;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    padding: 0 4px;
+    outline: none;
+}
+.header-search button {
+    outline: none;
+    background-color: #F1F3F4;
+    border: none;
+    padding: 0 16px;
+    border-radius: 50%;
+    outline: none;
+}
+.header-search button svg {
+    background-color: #F1F3F4;
+    outline: nones;
+}
+.tab-name {
+    width: 200px;
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-right: 24px;
+
+}
+#header-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-right: 40px;
+}
+#header-icons div {
+    /* border: 1px solid black; */
+    height: fit-content;
+    align-self: center;
+}
+#profile-icon {
+    margin-right: 24px;
+}
